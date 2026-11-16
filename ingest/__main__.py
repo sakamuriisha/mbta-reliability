@@ -25,7 +25,13 @@ def make_sink(kind: str):
     if kind == "bigquery":
         if not config.GCP_PROJECT:
             sys.exit("error: set GCP_PROJECT to use --sink bigquery")
-        return BigQuerySink(config.GCP_PROJECT, config.BQ_DATASET)
+        from google.api_core.exceptions import Forbidden
+        try:
+            return BigQuerySink(config.GCP_PROJECT, config.BQ_DATASET)
+        except Forbidden as exc:
+            sys.exit(f"error: BigQuery refused access ({exc.message}).\n"
+                     "Grant the service account 'BigQuery Data Editor' and 'BigQuery Job User' "
+                     f"on project {config.GCP_PROJECT} (IAM & Admin -> IAM -> Grant access).")
     return LocalSink(config.LOCAL_DATA_DIR)
 
 

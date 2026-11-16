@@ -1,0 +1,11 @@
+data/
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Never commit Google credentials
+*service-account*.json
+*sa-key*.json
+credentials*.json
+gcp-key*.json

@@ -1,0 +1,488 @@
+{
+ "data": [
+  {
+   "attributes": {
+    "arrival_time": null,
+    "arrival_uncertainty": null,
+    "departure_time": "2026-11-16T14:05:00-05:00",
+    "departure_uncertainty": 360,
+    "direction_id": 0,
+    "last_trip": false,
+    "revenue": "REVENUE",
+    "schedule_relationship": null,
+    "status": null,
+    "stop_sequence": 1,
+    "trip_headsign": null,
+    "update_type": "REVERSE_TRIP"
+   },
+   "id": "prediction-77871426-70061-1-Red",
+   "relationships": {
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "schedule": {
+     "data": {
+      "id": "schedule-77871426-70061-1",
+      "type": "schedule"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871426",
+      "type": "trip"
+     }
+    },
+    "vehicle": {
+     "data": {
+      "id": "R-548CAC0D",
+      "type": "vehicle"
+     }
+    }
+   },
+   "type": "prediction"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "arrival_uncertainty": null,
+    "departure_time": "2026-11-16T13:59:52-05:00",
+    "departure_uncertainty": 360,
+    "direction_id": 0,
+    "last_trip": false,
+    "revenue": "REVENUE",
+    "schedule_relationship": null,
+    "status": null,
+    "stop_sequence": 1,
+    "trip_headsign": null,
+    "update_type": "REVERSE_TRIP"
+   },
+   "id": "prediction-77871425-70061-1-Red",
+   "relationships": {
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "schedule": {
+     "data": {
+      "id": "schedule-77871425-70061-1",
+      "type": "schedule"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871425",
+      "type": "trip"
+     }
+    },
+    "vehicle": {
+     "data": {
+      "id": "R-548CAABC",
+      "type": "vehicle"
+     }
+    }
+   },
+   "type": "prediction"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "arrival_uncertainty": null,
+    "departure_time": "2026-11-16T13:52:00-05:00",
+    "departure_uncertainty": 360,
+    "direction_id": 0,
+    "last_trip": false,
+    "revenue": "REVENUE",
+    "schedule_relationship": null,
+    "status": null,
+    "stop_sequence": 1,
+    "trip_headsign": null,
+    "update_type": "REVERSE_TRIP"
+   },
+   "id": "prediction-77871424-70061-1-Red",
+   "relationships": {
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "schedule": {
+     "data": {
+      "id": "schedule-77871424-70061-1",
+      "type": "schedule"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871424",
+      "type": "trip"
+     }
+    },
+    "vehicle": {
+     "data": {
+      "id": "R-548CA1BE",
+      "type": "vehicle"
+     }
+    }
+   },
+   "type": "prediction"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "arrival_uncertainty": null,
+    "departure_time": "2026-11-16T13:36:30-05:00",
+    "departure_uncertainty": 360,
+    "direction_id": 0,
+    "last_trip": false,
+    "revenue": "REVENUE",
+    "schedule_relationship": null,
+    "status": null,
+    "stop_sequence": 1,
+    "trip_headsign": null,
+    "update_type": "REVERSE_TRIP"
+   },
+   "id": "prediction-77871423-70061-1-Red",
+   "relationships": {
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "schedule": {
+     "data": {
+      "id": "schedule-77871423-70061-1",
+      "type": "schedule"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871423",
+      "type": "trip"
+     }
+    },
+    "vehicle": {
+     "data": {
+      "id": "R-548CA41A",
+      "type": "vehicle"
+     }
+    }
+   },
+   "type": "prediction"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "arrival_uncertainty": null,
+    "departure_time": "2026-11-16T13:25:11-05:00",
+    "departure_uncertainty": 360,
+    "direction_id": 0,
+    "last_trip": false,
+    "revenue": "REVENUE",
+    "schedule_relationship": null,
+    "status": null,
+    "stop_sequence": 1,
+    "trip_headsign": null,
+    "update_type": "REVERSE_TRIP"
+   },
+   "id": "prediction-77871422-70061-1-Red",
+   "relationships": {
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "schedule": {
+     "data": {
+      "id": "schedule-77871422-70061-1",
+      "type": "schedule"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871422",
+      "type": "trip"
+     }
+    },
+    "vehicle": {
+     "data": {
+      "id": "R-548CABD0",
+      "type": "vehicle"
+     }
+    }
+   },
+   "type": "prediction"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "arrival_uncertainty": null,
+    "departure_time": "2026-11-16T13:57:30-05:00",
+    "departure_uncertainty": 360,
+    "direction_id": 0,
+    "last_trip": false,
+    "revenue": "REVENUE",
+    "schedule_relationship": "ADDED",
+    "status": null,
+    "stop_sequence": 1,
+    "trip_headsign": null,
+    "update_type": "REVERSE_TRIP"
+   },
+   "id": "prediction-NONREV-1580841192-70036-1-Orange",
+   "relationships": {
+    "route": {
+     "data": {
+      "id": "Orange",
+      "type": "route"
+     }
+    },
+    "schedule": {
+     "data": null
+    },
+    "stop": {
+     "data": {
+      "id": "70036",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "NONREV-1580841192",
+      "type": "trip"
+     }
+    },
+    "vehicle": {
+     "data": {
+      "id": "O-548CAFC7",
+      "type": "vehicle"
+     }
+    }
+   },
+   "type": "prediction"
+  }
+ ],
+ "included": [
+  {
+   "attributes": {
+    "arrival_time": null,
+    "departure_time": "2026-11-16T13:54:00-05:00",
+    "direction_id": 0,
+    "drop_off_type": 1,
+    "pickup_type": 0,
+    "stop_headsign": null,
+    "stop_sequence": 1,
+    "timepoint": false
+   },
+   "id": "schedule-77871425-70061-1",
+   "relationships": {
+    "added_routes": {
+     "data": []
+    },
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871425",
+      "type": "trip"
+     }
+    }
+   },
+   "type": "schedule"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "departure_time": "2026-11-16T13:44:00-05:00",
+    "direction_id": 0,
+    "drop_off_type": 1,
+    "pickup_type": 0,
+    "stop_headsign": null,
+    "stop_sequence": 1,
+    "timepoint": false
+   },
+   "id": "schedule-77871424-70061-1",
+   "relationships": {
+    "added_routes": {
+     "data": []
+    },
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871424",
+      "type": "trip"
+     }
+    }
+   },
+   "type": "schedule"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "departure_time": "2026-11-16T13:24:00-05:00",
+    "direction_id": 0,
+    "drop_off_type": 1,
+    "pickup_type": 0,
+    "stop_headsign": null,
+    "stop_sequence": 1,
+    "timepoint": false
+   },
+   "id": "schedule-77871422-70061-1",
+   "relationships": {
+    "added_routes": {
+     "data": []
+    },
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871422",
+      "type": "trip"
+     }
+    }
+   },
+   "type": "schedule"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "departure_time": "2026-11-16T13:34:00-05:00",
+    "direction_id": 0,
+    "drop_off_type": 1,
+    "pickup_type": 0,
+    "stop_headsign": null,
+    "stop_sequence": 1,
+    "timepoint": false
+   },
+   "id": "schedule-77871423-70061-1",
+   "relationships": {
+    "added_routes": {
+     "data": []
+    },
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871423",
+      "type": "trip"
+     }
+    }
+   },
+   "type": "schedule"
+  },
+  {
+   "attributes": {
+    "arrival_time": null,
+    "departure_time": "2026-11-16T14:04:00-05:00",
+    "direction_id": 0,
+    "drop_off_type": 1,
+    "pickup_type": 0,
+    "stop_headsign": null,
+    "stop_sequence": 1,
+    "timepoint": false
+   },
+   "id": "schedule-77871426-70061-1",
+   "relationships": {
+    "added_routes": {
+     "data": []
+    },
+    "route": {
+     "data": {
+      "id": "Red",
+      "type": "route"
+     }
+    },
+    "stop": {
+     "data": {
+      "id": "70061",
+      "type": "stop"
+     }
+    },
+    "trip": {
+     "data": {
+      "id": "77871426",
+      "type": "trip"
+     }
+    }
+   },
+   "type": "schedule"
+  }
+ ]
+}

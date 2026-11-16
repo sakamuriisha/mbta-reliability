@@ -1,0 +1,33 @@
+name: Load LAMP stop events
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # daily, ~7-8am Boston; reloads the last 3 days in case files were late
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: "How many past service days to (re)load. Use 55 for the first backfill."
+        default: "3"
+
+concurrency:
+  group: load-lamp
+  cancel-in-progress: false
+
+jobs:
+  load:
+    if: vars.GCP_PROJECT != ''   # skip quietly until BigQuery is set up
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+      - run: python -m ingest lamp --sink bigquery --days-back "${{ inputs.days_back || '3' }}"
+        env:
+          GCP_PROJECT: ${{ vars.GCP_PROJECT }}

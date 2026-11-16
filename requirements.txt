@@ -1,0 +1,4 @@
+requests>=2.32
+pyarrow>=17
+google-cloud-bigquery>=3.25
+tzdata  # time zone data for Windows
